@@ -1,0 +1,48 @@
+/* Center the content and add a background */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background: linear-gradient(to right, #e0e0e0, #f0f0f0); /* Soft gradient background */
+  padding: 2rem;
+}
+
+/* Center the logo and add some margin */
+.home-logo {
+  height: 400px;
+  padding-bottom: 50px;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  width: 250px; /* Adjust the width as needed */
+  height: 150px; /* Maintain aspect ratio */
+}
+
+/* Style the login container */
+.login-container {
+  background: #ffffff; /* White background */
+  padding: 2rem;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-align: center;
+}
+
+/* Style the login button */
+.login-button {
+  background-color: #6f00ff; /* Purple background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  padding: 0.75rem 1.5rem; /* Padding */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 1.25rem; /* Increase font size */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.login-button:hover {
+  background-color: #5400c1; /* Darker purple on hover */
+}
+
